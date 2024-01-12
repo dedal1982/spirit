@@ -12,9 +12,9 @@ window.addEventListener("scroll", function () {
   var header = document.getElementById("sticky-header");
   var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
 
-  if (scrollPosition > 95) {
-    header.style.top = "0";
+  if (scrollPosition > 900) {
+    header.style = "backdrop-filter: blur(8px);";
   } else {
-    header.style.top = "-95px";
+    header.style = "backdrop-filter: none;";
   }
 });

@@ -53,21 +53,14 @@ button {
   margin: 0 auto;
 }
 /*header*/
-#sticky-header {
-  position: sticky;
-  background: rgb(49 30 62 / 94%);
-  backdrop-filter: blur(8px);
-  z-index: 100;
 
-  transition: top 0.5s ease;
-}
 .header {
+  position: fixed;
+  background: transparent;
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;
-  background: #00000069;
-  backdrop-filter: blur(8px);
   z-index: 100;
 }
 .header__wrapper {
