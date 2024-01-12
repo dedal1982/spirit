@@ -231,6 +231,9 @@ button {
 }
 .promo__wrapper {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* .promo__title {
   width: 100%;
@@ -246,14 +249,15 @@ button {
 } */
 .promo__title {
   font-size: 7em;
-  margin: 50px 0;
+  margin: 390px auto 350px;
   text-decoration: none;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
   cursor: default;
-  color: #ff9900;
-  font-family: Audiowide;
+  color: #ff1e00;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
   animation: neon 2s ease-in-out infinite alternate;
   -moz-user-select: none;
   -webkit-user-select: none;
