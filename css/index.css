@@ -226,14 +226,12 @@ button {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../images/promo-bg.png);
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center;
   background-size: cover;
 }
 .promo__wrapper {
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 /* .promo__title {
   width: 100%;
@@ -248,14 +246,14 @@ button {
   font-weight: 900;
 } */
 .promo__title {
-  font-size: 7em;
+  font-size: 11em;
   margin: 390px auto 350px;
   text-decoration: none;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
   cursor: default;
-  color: #ff1e00;
+  color: #b84604;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   animation: neon 2s ease-in-out infinite alternate;
