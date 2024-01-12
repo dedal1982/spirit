@@ -338,4 +338,26 @@ button {
   .mobile-menu.active {
     height: 100vh;
   }
+  .mobile-inner {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 150px;
+  }
+  .mobile-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .mobile-link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+  }
 }
