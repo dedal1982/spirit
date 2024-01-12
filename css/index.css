@@ -104,7 +104,6 @@ button {
 .header__link {
   display: flex;
   align-items: center;
-  position: relative;
   gap: 5px;
   text-transform: uppercase;
   font-size: 20px;
@@ -113,18 +112,21 @@ button {
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff9900,
     0 0 35px #ff9900, 0 0 40px #ff9900, 0 0 50px #ff9900, 0 0 75px #ff9900;
 }
-
-.header__link:before {
+.header__link span {
+  position: relative;
+  padding-bottom: 5px;
+}
+.header__link span:before {
   content: "";
   bottom: 0;
   left: 0;
   position: absolute;
   width: 0;
-  height: 1px;
-  transition: 0.2s;
-  background-color: #ffffff;
+  height: 3px;
+  transition: 0.3s;
+  background-color: #b84604;
 }
-.header__link:hover:before {
+.header__link:hover span:before {
   width: 100%;
 }
 @media (max-width: 1100px) {
