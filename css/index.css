@@ -77,9 +77,13 @@ button {
   display: flex;
   gap: 10px;
 }
+.header__logo img {
+  width: 50px;
+  height: 50px;
+}
 .header__logo p {
   text-transform: uppercase;
-  font-size: 26px;
+  font-size: 43px;
   color: #ffffff;
 }
 .header__nav {
@@ -105,7 +109,9 @@ button {
   text-transform: uppercase;
   font-size: 20px;
   line-height: 16px;
-  color: #ffffff;
+  color: #b84604;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff9900,
+    0 0 35px #ff9900, 0 0 40px #ff9900, 0 0 50px #ff9900, 0 0 75px #ff9900;
 }
 
 .header__link:before {
@@ -233,18 +239,7 @@ button {
   width: 100%;
   display: flex;
 }
-/* .promo__title {
-  width: 100%;
-  color: #ffffff;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  line-height: 117px;
-  font-size: 150px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-} */
+
 .promo__title {
   font-size: 11em;
   margin: 390px auto 350px;
@@ -254,21 +249,11 @@ button {
   transition: all 0.5s;
   cursor: default;
   color: #b84604;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff9900,
+    0 0 35px #ff9900, 0 0 40px #ff9900, 0 0 50px #ff9900, 0 0 75px #ff9900;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  animation: neon 2s ease-in-out infinite alternate;
   -moz-user-select: none;
   -webkit-user-select: none;
-}
-
-@keyframes neon {
-  from {
-    color: #ffffff;
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff9900,
-      0 0 70px #ff9900, 0 0 80px #ff9900, 0 0 100px #ff9900, 0 0 150px #ff9900;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff9900,
-      0 0 35px #ff9900, 0 0 40px #ff9900, 0 0 50px #ff9900, 0 0 75px #ff9900;
-  }
+  transition: all 0.3s ease-in-out;
 }
