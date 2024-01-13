@@ -286,7 +286,7 @@ button {
 @media (max-width: 900px) {
   .promo__title {
     font-size: 7em;
-    margin: 150px auto 150px;
+    margin: 200px auto 200px;
   }
 }
 @media (max-width: 767px) {
