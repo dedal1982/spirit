@@ -645,3 +645,52 @@ button {
   font-size: 22px;
   z-index: inherit;
 }
+/*info*/
+.info {
+  width: 100%;
+  background: #000000;
+}
+.info__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  box-sizing: border-box;
+  gap: 50px;
+}
+@media screen and (max-width: 768px) {
+  .info__wrapper {
+    gap: 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+.info__item {
+  display: flex;
+  gap: 100px;
+}
+@media screen and (max-width: 768px) {
+  .info__item {
+    gap: 50px;
+  }
+}
+.info__icon {
+  width: 150px;
+  height: 200px;
+}
+@media screen and (max-width: 768px) {
+  .info__icon {
+    width: 100px;
+    height: 100px;
+  }
+}
+.info__description {
+  max-width: 1200px;
+  width: 100%;
+  color: #ffffff;
+  font-size: clamp(14px, 2.5vw, 32px);
+  /* font-size: 32px; */
+  letter-spacing: 0.4px;
+  text-align: center;
+}
