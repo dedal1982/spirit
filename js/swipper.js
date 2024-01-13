@@ -1,12 +1,21 @@
-const panels = document.querySelectorAll(".panel");
-panels.forEach((panel) => {
-  panel.addEventListener("click", () => {
-    removeActiveClasses();
-    panel.classList.add("active");
-  });
+const swiper = new Swiper(".catalog__swiper", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: ".swiper-scrollbar",
+  },
 });
-function removeActiveClasses() {
-  panels.forEach((panel) => {
-    panel.classList.remove("active");
-  });
-}
