@@ -587,9 +587,15 @@ button {
 }
 /*swiper*/
 .catalog__swiper {
-  width: 350px;
-  height: 400px;
-  margin-top: 50px;
+  display: none;
+}
+@media screen and (max-width: 860px) {
+  .catalog__swiper {
+    display: flex;
+    width: 350px;
+    height: 400px;
+    margin-top: 50px;
+  }
 }
 .swip-img {
   display: flex;
