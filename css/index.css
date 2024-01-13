@@ -121,6 +121,10 @@ button {
   font-size: 26px;
   line-height: 16px;
   color: #b84604;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 10px #ff9900;
+  transition: all 0.3s ease-in-out;
+}
+.header__link:hover {
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff9900,
     0 0 35px #ff9900, 0 0 40px #ff9900, 0 0 50px #ff9900, 0 0 75px #ff9900;
 }
