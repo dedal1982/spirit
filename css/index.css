@@ -267,6 +267,7 @@ button {
 }
 
 .promo__title {
+  text-align: center;
   font-size: 11em;
   margin: 390px auto 350px;
   text-decoration: none;
