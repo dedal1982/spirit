@@ -349,18 +349,24 @@ button {
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  margin-top: 150px;
+  padding-top: 150px;
 }
 .mobile-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-top: 30px;
 }
 .mobile-link {
+  width: 200px;
+  display: block;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   line-height: 22px;
   font-size: 16px;
   color: #fff;
   text-transform: uppercase;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff9900,
+    0 0 35px #ff9900, 0 0 40px #ff9900, 0 0 50px #ff9900, 0 0 75px #ff9900;
 }
