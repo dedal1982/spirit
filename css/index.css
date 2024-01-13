@@ -420,6 +420,10 @@ button {
 /*swipp*/
 .swipp {
   width: 100%;
+  background: #250000;
+  z-index: -1;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .panel-container * {
   box-sizing: border-box;
@@ -427,8 +431,8 @@ button {
 .panel-container {
   display: flex;
   overflow: hidden;
-  margin: 20px 0;
   height: 400px;
+  z-index: 3;
 }
 .panel {
   background-size: cover;
