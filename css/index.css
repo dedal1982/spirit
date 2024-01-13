@@ -357,6 +357,7 @@ button {
   align-items: center;
   gap: 30px;
   padding-top: 150px;
+  padding-bottom: 30px;
 }
 .mobile-list {
   display: flex;
@@ -395,4 +396,9 @@ button {
   height: 100%;
   object-fit: cover;
   border-radius: inherit;
+}
+.mobile-copyright {
+  font-family: "Montserrat";
+  color: #fff;
+  margin-top: auto;
 }
