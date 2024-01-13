@@ -152,9 +152,12 @@ button {
 }
 .link-icon {
   display: block;
-  border-radius: 5px;
+  border-radius: 50%;
   width: 40px;
-  height: 30px;
+  height: 40px;
+  transition: all 0.3s ease-in-out;
+}
+.link-icon:hover {
   box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff9900,
     0 0 35px #ff9900, 0 0 40px #ff9900, 0 0 50px #ff9900, 0 0 75px #ff9900;
 }
