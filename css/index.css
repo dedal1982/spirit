@@ -602,9 +602,11 @@ button {
   border: 1px solid #cdaa7d;
   border-radius: 50%;
   background: #000000;
+  z-index: 20;
 }
 .catalog-prev::after,
 .catalog-next::after {
   color: #cdaa7d;
   font-size: 22px;
+  z-index: inherit;
 }
