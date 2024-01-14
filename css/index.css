@@ -630,7 +630,7 @@ button {
   color: #ffffff;
   -webkit-text-stroke: 1px #830707;
   text-align: center;
-  top: 30%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
