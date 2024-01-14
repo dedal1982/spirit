@@ -729,7 +729,7 @@ button {
     overflow: auto;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1005px) {
   .pay__list {
     margin: 30px auto 30px;
     gap: 10px;
@@ -739,6 +739,10 @@ button {
   display: block;
   width: 150px;
   height: 80px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 0.5em;
+  box-sizing: border-box;
 }
 @media screen and (max-width: 767px) {
   .pay__icon {
