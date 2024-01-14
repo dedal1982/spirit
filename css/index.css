@@ -735,6 +735,7 @@ button {
 @media screen and (max-width: 768px) {
   .pay__list {
     margin: 30px auto 30px;
+    gap: 10px;
   }
 }
 .pay__icon {
@@ -784,5 +785,6 @@ button {
 @media screen and (max-width: 767px) {
   .pay__description {
     line-height: 14px;
+    letter-spacing: 0.2px;
   }
 }
