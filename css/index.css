@@ -47,6 +47,43 @@ button {
 .lock {
   overflow: hidden;
 }
+.update {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 80px;
+  position: fixed;
+  border: 1px solid;
+  border-image-source: linear-gradient(315deg, #ffb344, #ffffff, #ffb344);
+  border-image-slice: 1;
+  right: 0;
+  top: 115px;
+  z-index: 15;
+  transition: all 0.5s ease-in-out;
+}
+.update span {
+  font-size: 14px;
+  text-transform: uppercase;
+  background-image: linear-gradient(315deg, #ffb344, #ffffff, #ffb344);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+@media (max-width: 767px) {
+  .update {
+    width: 70px;
+    height: 50px;
+    padding-left: 10px;
+    box-sizing: border-box;
+  }
+  .update span {
+    font-size: 12px;
+  }
+}
+.update:hover {
+  width: 250px;
+}
 .container {
   max-width: 1440px;
   width: 100%;
@@ -122,7 +159,7 @@ button {
   align-items: end;
   gap: 50px;
 }
-@media (max-width: 1100px) {
+@media (max-width: 1248px) {
   .header__nav {
     gap: 20px;
   }
@@ -149,7 +186,7 @@ button {
 }
 .header__link p {
   font-size: 26px;
-  line-height: 16px;
+  line-height: 21px;
   background-image: linear-gradient(315deg, #ffb344, #ffffff, #ffb344);
   -webkit-background-clip: text;
   background-clip: text;
@@ -180,7 +217,7 @@ button {
 }
 
 @media (max-width: 1400px) {
-  .header__link {
+  .header__link p {
     font-size: 16px;
   }
 }
