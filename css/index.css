@@ -51,12 +51,9 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100px;
-  height: 80px;
+  width: 96px;
+  height: 96px;
   position: fixed;
-  border: 1px solid;
-  border-image-source: linear-gradient(315deg, #ffb344, #ffffff, #ffb344);
-  border-image-slice: 1;
   right: 0;
   top: 115px;
   z-index: 15;
@@ -66,25 +63,47 @@ button {
   overflow: hidden;
   cursor: pointer;
 }
-.update span {
-  font-size: 18px;
-  text-transform: uppercase;
-  color: transparent;
+.update-info {
+  max-width: 100px;
+  max-height: 100px;
+  transition: all 0.3s ease-in-out;
 }
+.update-info img {
+  width: 100%;
+  height: 100%;
+}
+.update-text {
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+
 @media (max-width: 767px) {
   .update {
     width: 70px;
     height: 50px;
   }
-  .update span {
+  .update-text {
     font-size: 12px;
   }
 }
 .update:hover {
+  min-width: 96px;
   width: fit-content;
+  min-height: 96px;
   height: fit-content;
+  border: 1px solid;
+  border-image-source: linear-gradient(315deg, #ffb344, #ffffff, #ffb344);
+  border-image-slice: 1;
 }
-.update:hover span {
+.update:hover .update-info {
+  display: none;
+}
+.update:hover .update-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: transparent;
   background-image: linear-gradient(315deg, #ffb344, #ffffff, #ffb344);
   -webkit-background-clip: text;
   background-clip: text;
