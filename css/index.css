@@ -163,7 +163,7 @@ button {
 .header__nav {
   display: flex;
   align-items: end;
-  gap: 50px;
+  gap: 30px;
 }
 @media (max-width: 1248px) {
   .header__nav {
@@ -481,7 +481,7 @@ button {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 984px) {
   .swipp {
     padding-bottom: 0;
   }
@@ -527,7 +527,7 @@ button {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 984px) {
   .panel-container {
     position: relative;
   }
