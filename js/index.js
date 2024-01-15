@@ -36,3 +36,25 @@ function removeActiveClasses() {
     panel.classList.remove("active");
   });
 }
+
+const linkMobileMenu = document.querySelectorAll(".mobile-link");
+
+//закрыть меню при клике на ссылку
+for (link of linkMobileMenu) {
+  link.addEventListener("click", function () {
+    mobMenu.classList.remove("active");
+    burgerClick.classList.remove("active");
+    scrollLock.classList.remove("lock");
+  });
+}
+
+const iconSocial = document.querySelectorAll(".mobile-icon");
+
+//клик по иконке соц. сети в мобиле
+for (link of iconSocial) {
+  link.addEventListener("click", function () {
+    mobMenu.classList.remove("active");
+    burgerClick.classList.remove("active");
+    scrollLock.classList.remove("lock");
+  });
+}
