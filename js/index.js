@@ -50,7 +50,7 @@ for (link of linkMobileMenu) {
 
 const iconSocial = document.querySelectorAll(".mobile-icon");
 
-//клик по иконке соц. сети в мобиле
+//клик по иконке соц.сети в мобиле - переход по ссылке и закрытие бургера
 for (link of iconSocial) {
   link.addEventListener("click", function () {
     mobMenu.classList.remove("active");
