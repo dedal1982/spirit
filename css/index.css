@@ -61,9 +61,11 @@ button {
   top: 115px;
   z-index: 15;
   transition: all 0.5s ease-in-out;
+  padding-left: 10px;
+  box-sizing: border-box;
 }
 .update span {
-  font-size: 14px;
+  font-size: 18px;
   text-transform: uppercase;
   background-image: linear-gradient(315deg, #ffb344, #ffffff, #ffb344);
   -webkit-background-clip: text;
@@ -74,15 +76,17 @@ button {
   .update {
     width: 70px;
     height: 50px;
-    padding-left: 10px;
-    box-sizing: border-box;
   }
   .update span {
     font-size: 12px;
   }
 }
 .update:hover {
-  width: 250px;
+  width: fit-content;
+  background: #ffffff;
+}
+.update:hover span {
+  color: black;
 }
 .container {
   max-width: 1440px;
@@ -959,50 +963,27 @@ button {
   align-items: center;
   gap: 10px;
   font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  background-image: linear-gradient(90deg, #595260, #eeeeee, #595260);
+  background-image: linear-gradient(90deg, #a8a0b1, #a197ab);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
-.footer__nav {
-  display: flex;
-  align-items: end;
-  gap: 50px;
-}
-@media (max-width: 1100px) {
-  .footer__nav {
-    gap: 20px;
-  }
-}
-@media (max-width: 900px) {
-  .footer__nav {
-    display: none;
-  }
-}
-.footer__link {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  background-image: linear-gradient(90deg, #595260, #eeeeee, #595260);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-size: 14px;
-  transition: all 0.3s ease-in-out;
-}
-.footer__link:hover {
-  opacity: 0.7;
-}
 .footer span {
-  background-image: linear-gradient(90deg, #595260, #eeeeee, #595260);
+  background-image: linear-gradient(90deg, #a8a0b1, #a197ab);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 @media (max-width: 900px) {
   .footer span {
     display: none;
   }
+}
+.footer span P {
+  align-self: flex-end;
 }
