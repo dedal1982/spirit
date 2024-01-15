@@ -143,7 +143,7 @@ button {
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff9900,
     0 0 35px #ff9900, 0 0 40px #ff9900, 0 0 50px #ff9900, 0 0 75px #ff9900;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
   .header__logo span {
     font-size: 30px;
   }
@@ -170,7 +170,7 @@ button {
     gap: 20px;
   }
 }
-@media (max-width: 935px) {
+@media (max-width: 984px) {
   .header__nav {
     display: none;
   }
@@ -222,7 +222,7 @@ button {
   width: 100%;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
   .header__link p {
     font-size: 16px;
   }
@@ -255,7 +255,7 @@ button {
   align-items: center;
   gap: 10px;
 }
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 984px) {
   .header__social {
     display: none;
   }
@@ -264,7 +264,7 @@ button {
 .header__burger {
   display: none;
 }
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 984px) {
   .header__burger {
     display: block;
     position: relative;
@@ -273,7 +273,7 @@ button {
     z-index: 999;
   }
 }
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 984px) {
   .header__burger:before {
     content: "";
     background-color: #cdaa7d;
@@ -285,14 +285,14 @@ button {
     transition: all 0.3s ease 0s;
   }
 }
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 984px) {
   .header__burger.active:before {
     transform: rotate(45deg);
     top: 9px;
     transition: all 0.3s ease 0s;
   }
 }
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 984px) {
   .header__burger:after {
     content: "";
     background-color: #cdaa7d;
@@ -304,14 +304,14 @@ button {
     transition: all 0.3s ease 0s;
   }
 }
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 984px) {
   .header__burger.active:after {
     transform: rotate(-45deg);
     bottom: 9px;
     transition: all 0.3s ease 0s;
   }
 }
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 984px) {
   .header__burger span {
     content: "";
     background-color: #cdaa7d;
@@ -323,7 +323,7 @@ button {
     transition: all 0.3s ease 0s;
   }
 }
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 984px) {
   .header__burger.active span {
     transform: scale(0);
   }
