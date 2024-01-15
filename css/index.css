@@ -61,8 +61,7 @@ button {
   top: 115px;
   z-index: 15;
   transition: all 0.5s ease-in-out;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
   box-sizing: border-box;
   overflow: hidden;
   cursor: pointer;
@@ -70,9 +69,6 @@ button {
 .update span {
   font-size: 18px;
   text-transform: uppercase;
-  background-image: linear-gradient(315deg, #ffb344, #ffffff, #ffb344);
-  -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
 }
 @media (max-width: 767px) {
@@ -86,10 +82,12 @@ button {
 }
 .update:hover {
   width: fit-content;
-  background: #ffffff;
+  height: fit-content;
 }
 .update:hover span {
-  color: black;
+  background-image: linear-gradient(315deg, #ffb344, #ffffff, #ffb344);
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 .container {
   max-width: 1440px;
