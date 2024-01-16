@@ -187,18 +187,19 @@ button {
     font-size: 30px;
   }
 }
-.header__logo img {
+.header__img {
   display: block;
   width: 80px;
   height: 80px;
   border-radius: 50%;
+  border: 1px solid #ffb344;
 }
-.header__logo:hover img {
+.header__img:hover {
   box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff9900,
     0 0 35px #ff9900, 0 0 40px #ff9900, 0 0 50px #ff9900, 0 0 75px #ff9900;
 }
 @media (max-width: 768px) {
-  .header__logo img {
+  .header__mg {
     width: 40px;
     height: 40px;
   }
