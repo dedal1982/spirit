@@ -121,6 +121,7 @@ button {
   border: 1px solid;
   border-image-source: linear-gradient(315deg, #ffb344, #ffffff, #ffb344);
   border-image-slice: 1;
+  background: rgb(63 2 2 / 95%);
 }
 .update:hover .update-info {
   display: none;
