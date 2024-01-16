@@ -76,6 +76,7 @@ button {
   height: 100%;
   animation: 3s linear 0s normal none infinite running rot;
   -webkit-animation: 3s linear 0s normal none infinite running rot;
+  background: transparent;
 }
 
 @keyframes rot {
@@ -133,6 +134,7 @@ button {
 .update:hover .update-text {
   width: auto;
 }
+
 .container {
   max-width: 1440px;
   width: 100%;
