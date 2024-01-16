@@ -29,7 +29,14 @@
   background-clip: text;
   color: transparent;
   text-align: center;
-  font-size: 34px;
+  font-size: 42px;
+  border: 1px solid;
+  border-image-source: linear-gradient(315deg, #ffb344, #ffffff, #ffb344);
+  border-image-slice: 1;
+  padding: 1em;
+  box-sizing: border-box;
+  width: fit-content;
+  margin: 0 auto;
 }
 @media (max-width: 1024px) {
   .cheat-shop__title {
@@ -40,6 +47,7 @@
   display: flex;
   align-items: center;
   gap: 30px;
+  justify-content: space-between;
 }
 @media (max-width: 1023px) {
   .cheat-shop__top {
@@ -67,7 +75,7 @@
   }
 }
 .cheat-shop__description {
-  width: 100%;
+  width: 50%;
   border: 3px solid;
   border-image-source: linear-gradient(315deg, #ffb344, #ffffff, #ffb344);
   border-image-slice: 1;
@@ -81,6 +89,11 @@
 @media (max-width: 1024px) {
   .cheat-shop__description {
     padding: 10px;
+  }
+}
+@media (max-width: 1023px) {
+  .cheat-shop__description {
+    width: 100%;
   }
 }
 .cheat-shop__text {
@@ -117,6 +130,15 @@
 }
 .cheat-shop-centr {
   display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+}
+@media (max-width: 1023px) {
+  .cheat-shop-centr {
+    flex-direction: column;
+  }
 }
 /*swiper*/
 
@@ -152,11 +174,12 @@
 .cheat-shop-swiper {
   width: 500px;
   height: 500px;
+  margin: 0;
 }
 @media (max-width: 1023px) {
   .cheat-shop-swiper {
-    width: fit-content;
-    height: fit-content;
+    width: 100%;
+    height: 100%;
   }
 }
 @media (max-width: 500px) {
@@ -177,7 +200,7 @@
 .cheat-shop-slide img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 .swiper-pagination-bullet-active {
   background: linear-gradient(315deg, #ffb344, #ffffff, #ffb344);

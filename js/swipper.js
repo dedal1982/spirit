@@ -24,7 +24,7 @@ const swiperShop = new Swiper(".cheat-shop-swiper", {
   // Optional parameters
   direction: "horizontal",
   slidesPerView: 1,
-  spaceBetween: 40,
+  spaceBetween: 20,
   loop: false,
 
   // If we need pagination
