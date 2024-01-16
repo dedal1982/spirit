@@ -111,6 +111,7 @@ button {
   .update {
     width: 70px;
     height: 50px;
+    top: 90px;
   }
   .update-text {
     font-size: 12px;

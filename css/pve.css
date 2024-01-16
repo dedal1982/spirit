@@ -59,6 +59,21 @@
   border-image-source: linear-gradient(315deg, #ffb344, #ffffff, #ffb344);
   border-image-slice: 1;
   height: 324px;
+  position: relative;
+}
+.video-item::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background: #ffffff;
+  right: -120px;
+  top: 50%;
+}
+@media (max-width: 1417px) {
+  .video-item::after {
+    content: none;
+  }
 }
 @media (max-width: 1023px) {
   .video-item {
@@ -85,6 +100,48 @@
   flex-direction: column;
   gap: 10px;
   height: fit-content;
+}
+.description {
+  position: relative;
+}
+.description-before {
+  position: relative;
+}
+.description-before::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background: #ffffff;
+  left: 50%;
+  bottom: -50px;
+  transform: rotate(90deg);
+}
+.description::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background: #ffffff;
+  right: -150px;
+  top: 50%;
+}
+.description::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background: #ffffff;
+  left: 50%;
+  bottom: -100px;
+  transform: rotate(90deg);
+}
+@media (max-width: 1417px) {
+  .description::after,
+  .description::before,
+  .description-before::before {
+    content: none;
+  }
 }
 @media (max-width: 1024px) {
   .cheat-shop__description {
@@ -176,6 +233,7 @@
   height: 500px;
   margin: 0;
 }
+
 @media (max-width: 1023px) {
   .cheat-shop-swiper {
     width: 100%;
