@@ -10,19 +10,19 @@ burgerClick.addEventListener("click", () => {
 });
 
 //липкий хедер
-window.addEventListener("scroll", function () {
-  var header = document.getElementById("sticky-header");
-  var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+// window.addEventListener("scroll", function () {
+//   var header = document.getElementById("sticky-header");
+//   var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
 
-  if (scrollPosition > 400) {
-    header.style =
-      "backdrop-filter: blur(8px) ;background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),";
-    header.style.background =
-      "linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))";
-  } else {
-    header.style = "backdrop-filter: none;";
-  }
-});
+//   if (scrollPosition > 400) {
+//     header.style =
+//       "backdrop-filter: blur(8px) ;background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),";
+//     header.style.background =
+//       "linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8))";
+//   } else {
+//     header.style = "backdrop-filter: none;";
+//   }
+// });
 
 const panels = document.querySelectorAll(".panel");
 panels.forEach((panel) => {
