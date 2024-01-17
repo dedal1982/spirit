@@ -1080,3 +1080,18 @@ button {
   background-clip: text;
   color: transparent;
 }
+/***/
+.down-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.down-list p {
+  font-size: 20px;
+}
+.down-list img {
+  transition: all 0.3s ease-in-out;
+}
+.down-list img:hover {
+  opacity: 0.5;
+}

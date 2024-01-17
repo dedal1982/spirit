@@ -165,12 +165,14 @@
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: x-large;
+  text-transform: uppercase;
 }
 @media (max-width: 1024px) {
   .cheat-shop__text {
     font-size: large;
   }
 }
+
 .cheat-shop__subtitle {
   color: #ffffff;
   text-align: center;
