@@ -58,3 +58,12 @@ for (link of iconSocial) {
     scrollLock.classList.remove("lock");
   });
 }
+
+//чат с оператором
+var jivoChatButton = document.getElementById("jivo-chat-button");
+
+jivoChatButton.addEventListener("click", function () {
+  if (typeof jivo_api !== "undefined") {
+    jivo_api.open();
+  }
+});
